@@ -4,6 +4,7 @@ A Web-Application for Adding places that can be used a camp grounds,resting poin
 The map feature allows users to visualize the location of each campground and get a sense of its proximity to other points of interest. They can zoom in and out of the map to get a better view of the surrounding area and use filters to narrow down their search based on specific criteria.
 
 One of the unique features of this website is its focus on user-generated content. By allowing users to add and review campgrounds, the site fosters a sense of community and encourages people to share their experiences with others. This creates a valuable resource for travelers, helping them find the best camping spots around the world.
+![Screenshot 2024-06-23 21 28 22](https://github.com/AnujKumarSingh-Code/Camp-Spot/assets/133045218/db654fe3-92f1-4ed2-8e7d-934bd249c774)
 
 
 # Run Locally
