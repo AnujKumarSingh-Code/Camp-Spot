@@ -5,22 +5,9 @@ const Campground = require('../models/campground');
 const { coordinates } = require('@maptiler/client');
 
 
-mongoose.connect('mongodb://127.0.0.1:27017/yelp-camp' , {
-    useNewUrlParser: true,
-    // useCreateIndex: true,
-    useunifiedTopology: true,
-    useFindAndModify: false
-
-});
+mongoose.connect(process.env.DB_URL );
 
 
-
-mongoose.connect('mongodb://127.0.0.1:27017/yelp-camp' , {
-    useNewUrlParser: true,
-    // useCreateIndex: true,
-    useunifiedTopology: true
-
-});
 
 main().then (() => {
   console.log("CONNECTION  database OPEN")
@@ -33,7 +20,7 @@ main().catch(err =>
   });
 
 async function main() {
-  await mongoose.connect('mongodb://127.0.0.1:27017/yelp-camp');
+  await mongoose.connect(process.env.DB_URL);
 
 }
 
